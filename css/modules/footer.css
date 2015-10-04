@@ -1,0 +1,125 @@
+footer {
+  background-image: url("../images/misc/purty_wood.png");
+  padding: 30px 0; }
+  footer .language-selection {
+    margin-bottom: 10px; }
+    footer .language-selection a {
+      color: #523d38;
+      text-decoration: none;
+      font-size: .9em;
+      text-transform: uppercase;
+      font-weight: 700; }
+      footer .language-selection a:hover {
+        color: rgba(96, 66, 58, 0.5); }
+      footer .language-selection a:first-child:after {
+        content: '//';
+        margin: 0 5px; }
+  footer .flex-down {
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%; }
+
+.footer-lang.language-selection {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box; }
+  @media screen and (min-width: 992px) {
+    .footer-lang.language-selection {
+      text-align: right; } }
+
+.legal {
+  background-color: #523d38;
+  width: 100%;
+  padding: 20px 0;
+  color: white;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .8em; }
+  .legal .item {
+    -webkit-flex: auto;
+        -ms-flex: auto;
+            flex: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 0;
+    box-sizing: border-box; }
+    @media screen and (min-width: 992px) {
+      .legal .item {
+        padding-right: 0;
+        text-align: left; } }
+  .legal .container {
+    display: block;
+    vertical-align: middle; }
+    @media screen and (min-width: 992px) {
+      .legal .container {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; } }
+
+.footer-social__links {
+  float: left;
+  width: 100%;
+  text-align: center; }
+  @media screen and (min-width: 992px) {
+    .footer-social__links {
+      text-align: right; } }
+  .footer-social__links a {
+    text-decoration: none;
+    color: #523d38;
+    padding: 10px;
+    font-size: 1.4em; }
+    .footer-social__links a:hover {
+      color: rgba(96, 66, 58, 0.5); }
+    .footer-social__links a span {
+      text-indent: -99999px;
+      display: inline-block;
+      font-size: 0;
+      visibility: hidden; }
+
+.footer-logo {
+  text-align: center; }
+  .footer-logo img:hover {
+    opacity: .8; }
+
+.pre-footer {
+  padding: 0 !important; }
+  @media screen and (min-width: 992px) {
+    .pre-footer {
+      padding-right: 15px;
+      padding-left: 15px; } }
+
+.footer-nav {
+  width: 100%;
+  display: block;
+  float: left;
+  text-align: right;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 10px; }
+  @media screen and (min-width: 992px) {
+    .footer-nav {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }
+  .footer-nav li {
+    padding: 5px;
+    font-size: .8em;
+    text-align: center; }
+    @media screen and (min-width: 992px) {
+      .footer-nav li {
+        padding: 0 20px;
+        font-size: 1em; }
+        .footer-nav li:last-child {
+          padding-right: 0; } }
+    .footer-nav li a {
+      text-decoration: none;
+      color: #523d38;
+      font-size: .8em;
+      text-transform: uppercase;
+      font-weight: 700; }
+      .footer-nav li a:hover {
+        border-bottom: 3px solid #523d38; }

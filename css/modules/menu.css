@@ -1,0 +1,34 @@
+.box-menu__big .item {
+  background-image: url("../images/misc/purty_wood.png"); }
+  @media screen and (min-width: 768px) {
+    .box-menu__big .item {
+      padding: 1em 0; } }
+
+.box-menu__big .menu-header {
+  padding: 40px 0; }
+  @media screen and (min-width: 1015px) {
+    .box-menu__big .menu-header {
+      padding: 20px 0; } }
+
+@media screen and (min-width: 1015px) {
+  .box-menu__big .single:nth-child(odd) .info {
+    float: right; } }
+
+.box-menu__big .single:nth-child(odd) .image {
+  float: left; }
+
+.box-menu__big .single .info {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 35px; }
+  @media screen and (min-width: 1015px) {
+    .box-menu__big .single .info {
+      margin-top: 30px;
+      padding: 20px 40px; } }
+  .box-menu__big .single .info .title {
+    font-family: "Oleo Script", Helvetica, sans-serif;
+    font-size: 4em;
+    display: inline-block; }
+  .box-menu__big .single .info .subtitle {
+    margin: 10px 0;
+    font-size: 1em;
+    font-weight: 700; }
