@@ -34,6 +34,11 @@
 
 .box-intro__text {
   color: #60423a; }
+  .box-intro__text .info.reviews {
+    padding-bottom: 20px; }
+    .box-intro__text .info.reviews .intro-text.two {
+      text-align: left;
+      padding: 5px; }
   .box-intro__text .info .intro-text.one {
     text-transform: uppercase;
     border-top: 1px solid #60423a;
@@ -47,3 +52,7 @@
     line-height: 140%;
     text-align: center;
     font-size: .8em; }
+
+.nosotros .info .intro-text.two {
+  text-align: left;
+  padding: 10px; }

@@ -17,3 +17,20 @@ $(window).resize(function(){
         }
     });
 });
+
+
+$(function(){
+    var submenu = $(".main-nav li");
+    $(submenu).on("mouseenter mouseleave", function(e){
+        e.preventDefault();
+        $(this).find("ul").slideToggle();
+    });
+})
+
+$(function(){
+    var shopmenu = $(".shop-nav li");
+    $(shopmenu).on("click", function(e){
+        e.preventDefault();
+        $(this).find("ul").slideToggle();
+    });
+})

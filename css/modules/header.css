@@ -170,7 +170,8 @@ nav {
               flex: auto;
       text-align: center;
       font-size: .8em;
-      line-height: 3; }
+      line-height: 3;
+      position: relative; }
       .main-nav ul li a {
         text-decoration: none;
         color: white;
@@ -181,3 +182,16 @@ nav {
           background-color: #523d38;
           border-radius: 10px;
           box-shadow: 2px 2px 2px #523d38; }
+      .main-nav ul li ul {
+        display: none;
+        position: relative;
+        top: 0; }
+        @media screen and (min-width: 1015px) {
+          .main-nav ul li ul {
+            position: absolute;
+            top: 38px;
+            width: 200px; } }
+        .main-nav ul li ul li {
+          background-color: #60423a; }
+          .main-nav ul li ul li a:hover {
+            border-radius: 0 !important; }

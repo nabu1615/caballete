@@ -1,0 +1,73 @@
+.box-reservas {
+  background-image: url("../images/misc/bg-reservas.jpg");
+  background-attachment: fixed; }
+  .box-reservas .title {
+    font-family: "Pacifico", cursive;
+    color: #ebaf73;
+    font-size: 3em;
+    text-align: center; }
+  .box-reservas .text-form {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0; }
+  .box-reservas .image-form {
+    text-align: center; }
+  .box-reservas .box-form-reservas {
+    background-color: rgba(96, 66, 58, 0.8);
+    padding: 20px 40px;
+    margin: 40px 0;
+    margin-bottom: 80px;
+    border-radius: 15px; }
+  .box-reservas fieldset {
+    padding: 10px 0;
+    display: block;
+    box-sizing: border-box; }
+    .box-reservas fieldset label, .box-reservas fieldset input, .box-reservas fieldset textarea {
+      width: 100%;
+      display: inline-block;
+      line-height: 2; }
+    .box-reservas fieldset input, .box-reservas fieldset textarea {
+      line-height: 3;
+      border-radius: 5px;
+      border: none;
+      padding: 0 20px;
+      box-sizing: border-box; }
+    .box-reservas fieldset label {
+      color: #ffffff; }
+    .box-reservas fieldset textarea {
+      min-height: 300px; }
+    .box-reservas fieldset.double {
+      width: 100%;
+      display: inline-block; }
+      @media screen and (min-width: 992px) {
+        .box-reservas fieldset.double {
+          width: 38%; } }
+      .box-reservas fieldset.double:first-child {
+        margin-right: 20px; }
+      .box-reservas fieldset.double:nth-child(2) {
+        position: relative;
+        top: -2px; }
+        .box-reservas fieldset.double:nth-child(2) input {
+          height: 32px; }
+      .box-reservas fieldset.double input {
+        padding-right: 0; }
+  .box-reservas .box-input {
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    display: inline-block;
+    padding: 20px 0; }
+  .box-reservas button {
+    background-color: #ebaf73;
+    border: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    font-weight: 100;
+    font-size: 1em;
+    border-radius: 10px;
+    cursor: pointer; }
+    .box-reservas button:hover {
+      opacity: .8; }
