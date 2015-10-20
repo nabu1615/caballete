@@ -1,4 +1,64 @@
+.box-shop .shop-image {
+  padding: 20px 0;
+  text-align: center; }
+
+.box-shop .subtitle {
+  font-weight: 900;
+  text-transform: uppercase;
+  padding: 10px 0;
+  text-align: center; }
+
 .box-shop .item {
   width: 100%;
   display: inline-block;
   margin: 10px 0; }
+  @media screen and (min-width: 768px) {
+    .box-shop .item {
+      width: 24%; } }
+  .box-shop .item .name, .box-shop .item .size, .box-shop .item .price {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 900; }
+  .box-shop .item .size {
+    font-style: italic; }
+
+@media screen and (min-width: 768px) {
+  .box-shop-items {
+    padding: 40px 0; } }
+
+.box-shop-items .text {
+  padding: 20px 10px;
+  border-top: 1px solid #60423a;
+  border-bottom: 1px solid #60423a;
+  font-size: .9em;
+  margin: 20px 0;
+  margin-top: 10px;
+  line-height: 130%; }
+
+.shop-nav {
+  padding: 10px 0; }
+  .shop-nav a {
+    text-decoration: none;
+    color: #1d1d1d; }
+  .shop-nav li {
+    text-align: center;
+    padding: 5px 0;
+    font-style: italic; }
+    .shop-nav li a {
+      display: block; }
+      .shop-nav li a:before {
+        content: "";
+        background-image: url("../images/misc/arrow.png");
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background-repeat: no-repeat; }
+    .shop-nav li ul {
+      display: none;
+      padding-top: 10px; }
+      .shop-nav li ul a:before {
+        display: none; }
+      .shop-nav li ul li {
+        font-style: normal;
+        font-size: .8em;
+        padding: 5px 15px; }
