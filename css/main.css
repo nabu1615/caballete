@@ -117,14 +117,13 @@ table {
       background-color: #66483e;
       color: white; }
     .title-image .content span {
-      vertical-align: middle;
-      font-size: .5em; }
+      vertical-align: middle; }
       @media screen and (min-height: 768px) {
         .title-image .content span {
           font-size: 1em; } }
 
 .box-intro__text {
-  color: #60423a; }
+  color: #785e57; }
   .box-intro__text .info.reviews {
     padding-bottom: 20px; }
     .box-intro__text .info.reviews .intro-text.two {
@@ -162,17 +161,19 @@ table {
     color: #ffffff;
     width: 80%;
     margin: 0 auto;
-    padding: 20px 0; }
+    padding: 10px 0; }
   .box-reservas .image-form {
     text-align: center; }
   .box-reservas .box-form-reservas {
     background-color: rgba(96, 66, 58, 0.8);
-    padding: 20px 40px;
-    margin: 40px 0;
-    margin-bottom: 80px;
+    padding: 10px 40px;
+    margin: 40px auto;
     border-radius: 15px; }
+    @media screen and (min-width: 992px) {
+      .box-reservas .box-form-reservas {
+        width: 80%; } }
   .box-reservas fieldset {
-    padding: 10px 0;
+    padding: 5px 0;
     display: block;
     box-sizing: border-box; }
     .box-reservas fieldset label, .box-reservas fieldset input, .box-reservas fieldset textarea {
@@ -180,21 +181,23 @@ table {
       display: inline-block;
       line-height: 2; }
     .box-reservas fieldset input, .box-reservas fieldset textarea {
-      line-height: 3;
+      line-height: 2;
       border-radius: 5px;
       border: none;
       padding: 0 20px;
-      box-sizing: border-box; }
+      box-sizing: border-box;
+      color: #785e57;
+      font-size: 1em; }
     .box-reservas fieldset label {
       color: #ffffff; }
     .box-reservas fieldset textarea {
-      min-height: 300px; }
+      min-height: 220px; }
     .box-reservas fieldset.double {
       width: 100%;
       display: inline-block; }
       @media screen and (min-width: 992px) {
         .box-reservas fieldset.double {
-          width: 38%; } }
+          width: 45%; } }
       .box-reservas fieldset.double:first-child {
         margin-right: 20px; }
       .box-reservas fieldset.double:nth-child(2) {
@@ -209,7 +212,7 @@ table {
     color: #ffffff;
     width: 100%;
     display: inline-block;
-    padding: 20px 0; }
+    padding: 0; }
   .box-reservas button {
     background-color: #ebaf73;
     border: none;
@@ -292,8 +295,8 @@ table {
     text-decoration: none;
     color: #1d1d1d; }
   .shop-nav li {
-    text-align: center;
-    padding: 5px 0;
+    text-align: left;
+    padding: 5px 20px;
     font-style: italic; }
     .shop-nav li a {
       display: block; }
@@ -622,8 +625,7 @@ nav {
         width: 100%; }
         .main-nav ul li a:hover {
           background-color: #523d38;
-          border-radius: 10px;
-          box-shadow: 2px 2px 2px #523d38; }
+          border-radius: 10px; }
       .main-nav ul li ul {
         display: none;
         position: relative;
@@ -6064,7 +6066,8 @@ button.close {
 
 body, html {
   font-size: 16px;
-  font-family: "Open Sans", sans-serif; }
+  font-family: "Open Sans", sans-serif;
+  color: #785e57; }
 
 .flex-down {
   display: block;

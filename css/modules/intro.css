@@ -26,14 +26,13 @@
       background-color: #66483e;
       color: white; }
     .title-image .content span {
-      vertical-align: middle;
-      font-size: .5em; }
+      vertical-align: middle; }
       @media screen and (min-height: 768px) {
         .title-image .content span {
           font-size: 1em; } }
 
 .box-intro__text {
-  color: #60423a; }
+  color: #785e57; }
   .box-intro__text .info.reviews {
     padding-bottom: 20px; }
     .box-intro__text .info.reviews .intro-text.two {

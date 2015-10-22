@@ -41,8 +41,8 @@
     text-decoration: none;
     color: #1d1d1d; }
   .shop-nav li {
-    text-align: center;
-    padding: 5px 0;
+    text-align: left;
+    padding: 5px 20px;
     font-style: italic; }
     .shop-nav li a {
       display: block; }
