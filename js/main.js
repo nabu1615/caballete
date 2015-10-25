@@ -34,3 +34,5 @@ $(function(){
         $(this).find("ul").slideToggle();
     });
 })
+
+new WOW().init();

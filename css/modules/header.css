@@ -178,9 +178,6 @@ nav {
         text-transform: uppercase;
         display: inline-block;
         width: 100%; }
-        .main-nav ul li a:hover {
-          background-color: #523d38;
-          border-radius: 10px; }
       .main-nav ul li ul {
         display: none;
         position: relative;

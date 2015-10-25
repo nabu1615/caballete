@@ -20,6 +20,10 @@
 .box-menu__big .single .image {
   float: left;
   text-align: center; }
+  @media screen and (min-width: 1015px) {
+    .box-menu__big .single .image.asia {
+      position: relative;
+      top: 160px; } }
   .box-menu__big .single .image img {
     width: 90%; }
 
